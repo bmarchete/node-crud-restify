@@ -16,7 +16,25 @@ Módulo ORM para Mysql: https://github.com/tgriesser/knex, http://knexjs.org
 
 ## Instalação e execução
 
-Para testar a aplicação, você deve ter o MySQL instalado, com um banco de dados e uma tabela já criados.
+Para testar a aplicação, você deve ter o MySQL instalado, com a estrutura de banco de dados e tabela já criados. Você pode executar o script a seguir para gerar esta estrutura!
+
+```sql
+CREATE DATABASE `db`;
+USE `db`;
+
+CREATE TABLE `rest` (
+  `id` int(11) NOT NULL,
+  `name` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `rest` VALUES(1, 'Ricardo Teixeira');
+INSERT INTO `rest` VALUES(2, 'Maria Joaquina');
+
+
+ALTER TABLE `rest`
+  ADD PRIMARY KEY (`id`);
+```
+
 No arquivo index.js, troque os valores de configuração do MySQL por aqueles utilizados por você.
 
 ```javascript
