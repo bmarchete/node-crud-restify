@@ -22,9 +22,6 @@ Para testar a aplicação, você deve ter o MySQL instalado, com a estrutura de 
 CREATE DATABASE `db`;
 USE `db`;
 
-CREATE DATABASE `db`;
-USE `db`;
-
 CREATE TABLE `rest` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(30) NOT NULL
