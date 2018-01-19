@@ -23,7 +23,7 @@ CREATE DATABASE `db`;
 USE `db`;
 
 CREATE TABLE `rest` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
