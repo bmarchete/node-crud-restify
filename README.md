@@ -1,6 +1,6 @@
 # Aplicação RESTful com Node.js
 
-Este repositório contem a aplicação RESTful desenvolvida com Node.js que controla as operações CRUD em um banco de dados MySQL. Você pode encontrar um vídeo-cast com a explicação do desenvolvimento acessando o link https://youtu.be/Hel9igamKF0
+Este repositório contem a aplicação RESTful desenvolvida com Node.js que controla as operações CRUD em um banco de dados MySQL. Você pode encontrar um curso completo com a explicação do desenvolvimento acessando o link https://www.udemy.com/aplicacoes-web-na-pratica-javascript-nodejs/?couponCode=FB_DEC_JANFEB
 
 Os seguintes módulos e ferramentas foram utilizados para o desenvolvimento da aplicação:
 
